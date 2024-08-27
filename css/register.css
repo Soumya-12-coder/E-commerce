@@ -1,0 +1,371 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Header styling */
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Paragraph styling */
+p {
+    color: #666;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #333;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #000049;
+}
+
+/* Error handling, if needed */
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #eeee; /* Corrected to use a proper hex color */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px rgb(162, 162, 162);
+}
+
+nav .logo {
+    margin-left: 22px;
+    font-size: 24px;
+}
+nav h1{
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-inline: 10px;
+}
+
+nav ul li a {
+    margin-inline: 4px;
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li #home{
+    color: rgb(5, 167, 167);
+}
+nav ul li a.nav-link:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+ul li i {
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+ul li i:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 170px; /* Pushes the footer to the bottom */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0; /* Adjusted padding */
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+    text-align: center;
+}
+
+.footerText {
+    margin: 0 20px;
+}
+
+.footerText h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footerText p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.logout-btn {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px; /* Added border-radius for a smoother look */
+}
+
+/* Main page styles */
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.mainText {
+    margin-top: 144px;
+    text-align: center; /* Centered text for better alignment */
+}
+
+.mainText h1 {
+    font-size: 64px;
+}
+
+.mainText .top {
+    color: rgb(4, 138, 138);
+}
+
+.mainText button {
+    width: 145px;
+    height: 40px;
+    background-color: rgb(4, 140, 140);
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+    cursor: pointer; /* Added cursor pointer for better UX */
+}
+
+.mainText p {
+    margin-top: 12px;
+}
+
+.mainText button:hover {
+    border: 3px solid rgb(3, 128, 128);
+    background-color: transparent;
+    color: rgb(2, 121, 121);
+}
+
+.head h1 {
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+
+.head span {
+    color: rgb(2, 164, 164);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card .crd {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-left: 20px; /* Simplified margin */
+    border-radius: 15px; /* Added border-radius for better card appearance */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Added box-shadow for a 3D effect */
+    margin-inline: 15px;
+}
+
+.crd img {
+    width: 85%;
+    padding: 22px;
+    border-radius: 31px;
+}
+.crd {
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), 
+                box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smoother, longer transition */
+    transform-style: preserve-3d; /* Enable 3D transform effects */
+    perspective: 800px; /* Slightly reduced perspective to intensify depth */
+}
+
+.crd:hover {
+    transform: scale(1.05) rotateY(15deg); /* Increase rotation angle for more visibility */
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4); /* Enhanced shadow for depth effect */
+    filter: brightness(1.1) contrast(1.05); /* Increase brightness and contrast for more pop */
+}
+
+.crdText button {
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(5, 141, 141);
+    color: white;
+    font-size: 19px;
+    margin-top: 0;
+    cursor: pointer; /* Added cursor pointer for better UX */
+}
+
+.crdText button:hover {
+    background-color: rgb(4, 120, 120); /* Added hover effect */
+}
+
+.crdText i {
+    color: rgb(255, 149, 0);
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        flex-direction: column; /* Adjusted main section for smaller screens */
+    }
+
+    .mainText {
+        margin-top: 50px; /* Reduced margin for better spacing */
+    }
+
+    .card .crd {
+        width: 90%;
+        height: auto; /* Adjusted card size for smaller screens */
+    }
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    margin-inline: 22px;
+    border-radius: 11px;
+   
+}
+.blog:hover{
+    transition: 0.6s ease;
+    width: 520px;
+    height: 320px;
+}
+.blog img{
+    padding: 22px;
+    width: 85%;
+}
+.blogText{
+    padding: 12px;
+    margin-top: 33px;
+}
+.blogText a{
+    width: 130px;
+    padding: 4px;
+    height: 18px;
+    background-color: rgb(4, 136, 136);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+position: relative;
+top: 33px;
+}
+.letter{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color:rgb(2, 2, 66);
+    padding: 25px;
+}
+.inp{
+    display: flex;
+}
+.inp input{
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+.inp button{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(2, 173, 173);
+    color: white;
+    border: none;
+}
+.blogText a{
+    list-style: none;
+}
